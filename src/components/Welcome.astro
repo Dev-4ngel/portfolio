@@ -1,0 +1,65 @@
+---
+import githubdark from "../assets/GitHub_dark.svg";
+import linkedin from "../assets/linkedin.svg";
+import html from "../assets/html5.svg";
+import css from "../assets/css.svg";
+import tw from "../assets/tailwindcss.svg";
+import js from "../assets/javascript.svg";
+import ts from "../assets/typescript.svg";
+import angular from "../assets/angular.svg";
+import astro from "../assets/Astro_dark.svg";
+import node from "../assets/nodejs.svg";
+import express from "../assets/Express.js_dark.svg";
+import prisma from "../assets/Prisma_dark.svg";
+import postman from "../assets/postman.svg";
+---
+
+<div id="container" class="p-4">
+  <main>
+    <section id="hero" class="mb-3">
+      <h1 class="text-center text-2xl font-black mb-2">
+        Jesús Torres (Dev-4ngel)
+      </h1>
+      <p>
+        Soy estudiante de la licenciatura de ciencias de la informatica. Me
+        gusta el desarrollo actualmente me desempeño en el desarrollo de web
+        apps, con conocimientos basicos en el Front-End y en el Back-End. Me
+        gusta la ciberseguridad y las redes.
+      </p>
+    </section>
+
+    <section id="tecnologies">
+      <div class="">
+        <h3>Tecnologias front-end que manejo</h3>
+        <div class="flex space-x-5 size-12 mt-2 mb-2">
+          <img src={html.src} alt="HTML" />
+          <img src={css.src} alt="CSS" />
+          <img src={tw.src} alt="Tailwind" />
+          <img src={js.src} alt="JavaScript" />
+          <img src={ts.src} alt="TypeScript" />
+          <img src={angular.src} alt="Angular" />
+          <img src={astro.src} alt="Astro" />
+        </div>
+        <h3>Tecnologias back-end que manejo</h3>
+        <div class="flex space-x-5 size-12 mt-2 mb-2">
+          <img src={node.src} alt="Node.js" />
+          <img src={express.src} alt="express" />
+          <img src={prisma.src} alt="Prisma" />
+          <img src={postman.src} alt="Postman" />
+        </div>
+      </div>
+    </section>
+  </main>
+</div>
+
+<footer class="flex justify-center space-x-3">
+  <a href=""><img src={linkedin.src} class="size-8" alt="Linkedin" /></a>
+  <a href="https://github.com/Dev-4ngel"
+    ><img
+      src={githubdark.src}
+      alt="GitHub"
+      class="size-8"
+      fetchpriority="low"
+    /></a
+  >
+</footer>
